@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/share/main",
+    "pages/indexClassList/main",
+    "pages/mine/main",
+    "pages/aroundActivity/main",
+    "pages/check/main",
+    "pages/classList/main",
+    "pages/classListDetail/main",
+    "pages/credit/main",
+    "pages/myClass/main",
+    "pages/myClassList/main",
+    "pages/myOrder/main",
+    "pages/myOrderDetail/main",
+    "pages/newActivity/main",
+    "pages/teacherIntroduce/main",
+    "pages/teacherIntroduce/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "异域街舞",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#b8860b",
+    "color": "#8a8a8a",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "/static/imgs/tabar/index.png",
+        "selectedIconPath": "/static/imgs/tabar/index-active.png"
+      },
+      {
+        "pagePath": "pages/classList/main",
+        "text": "课程列表",
+        "iconPath": "/static/imgs/tabar/list.png",
+        "selectedIconPath": "/static/imgs/tabar/list-active.png"
+      },
+      {
+        "pagePath": "pages/mine/main",
+        "text": "个人",
+        "iconPath": "/static/imgs/tabar/mine.png",
+        "selectedIconPath": "/static/imgs/tabar/mine-active.png"
+      }
+    ]
+  }
+}
